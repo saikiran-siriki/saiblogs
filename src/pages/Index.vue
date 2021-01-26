@@ -4,7 +4,6 @@
     <div class="blogs-section container">
       <blogitem :blogdata="blogitem" v-for="(blogitem,index) in blogs" :key="index"/>
     </div>
-    <blogitem />
   </Layout>
 </template>
 
