@@ -1,0 +1,41 @@
+.blog-item{
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid $bordercolor;
+    .blog-header{
+        margin:0 0 1.25rem
+    }
+    .blog-title{
+        margin: 0 0 0.4rem;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+        a{
+            &:hover{
+                color:$red;
+                text-decoration: none;
+            }
+        }
+    }
+    .blog-meta{
+        color:$infoblue;
+        font-size:0.8rem;
+        .meta-item{
+            margin-right:1rem;
+            .meta-item-text{
+                margin-left:0.3rem;
+                color:$infoblue;
+                &:hover{
+                    color:$hoverinfoblue
+                }
+                a{
+                    color:inherit
+                }
+            }
+        }
+    }
+    .blog-content{
+        margin-bottom:2rem;
+        line-height:1.8
+    }
+}

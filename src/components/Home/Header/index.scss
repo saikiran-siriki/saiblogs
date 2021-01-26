@@ -1,0 +1,28 @@
+.site-header{
+    text-align: center;
+    background-color:$blue;
+    .container{
+        padding:3rem 0;
+        .site-branding{
+            .site-title{
+                margin: 0;
+                font-size: 3em;
+                font-weight: 900;
+                font-family: Raleway, Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 1;
+                color:$white
+            }
+            .site-description{
+                color: $dark;
+                font-size: 15px;
+                font-weight: 500;
+                font-family: Raleway, Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
