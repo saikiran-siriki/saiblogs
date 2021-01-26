@@ -5,7 +5,7 @@
         <h1 class="site-title">
           WebDev Basics 101
         </h1>
-        <div class="site-description">Learing path &amp; Jobs Tips</div>
+        <div class="site-description">Learning path &amp; Jobs Tips</div>
       </div>
     </div>
     <!-- .site-header -->

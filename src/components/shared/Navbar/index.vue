@@ -1,17 +1,17 @@
 <template>
     <div class="nav">
-  <div class="nav-header">
+  <div class="nav-header container">
     <div class="nav-title">
       SaiBlogs
     </div>
   </div>
-  <div class="nav-btn">
+  <!-- <div class="nav-btn">
     <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span>Coming Soon</span>
+      <span>Coming Soon :))</span>
+      <span>Coming Soon c:</span>
     </label>
-  </div>
+  </div> -->
 </div>
 </template>
 <script>

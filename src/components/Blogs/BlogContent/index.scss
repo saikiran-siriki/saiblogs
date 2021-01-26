@@ -1,0 +1,36 @@
+.article-container{
+    .article-title{
+        margin: 0 0 0.4rem;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .article-meta{
+        color:$infoblue;
+        font-size:0.8rem;
+        .meta-item{
+            margin-right:1rem;
+            .meta-item-text{
+                margin-left:0.3rem;
+                color:$infoblue;
+                &:hover{
+                    color:$hoverinfoblue
+                }
+                a{
+                    color:inherit
+                }
+            }
+        }
+    }
+    .article-content{
+        line-height:1.8;
+        img{
+            width:96%;
+            max-width:450px;
+        }
+        h1{
+            margin-bottom:0;
+            line-height:1.2
+        }
+    }
+}

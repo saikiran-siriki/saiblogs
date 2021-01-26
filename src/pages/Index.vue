@@ -13,15 +13,15 @@ import blogitem from "@/components/Home/BlogItem"
 export default {
   components:{headersection,blogitem},
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Learn to be a Developer Online'
   },
   data(){
     return{
       blogs:[
       {
-        title:'Choosing the best framework - Comparision 2021',
+        title:'A desirable tech blog for newbies',
         author:'Saikiran Siriki',
-        blogUrl:'/choosing-the-best-framework-comparision-2021',
+        blogUrl:'/blogs/choosing-the-best-framework-comparision-2021',
         authorUrl:'/author/saikiran-siriki',
         description:`Deciding to start a project with your comes with a lot of decisions to make. One
         such decision is what framework should I use? While there are numerous opinions
@@ -34,7 +34,7 @@ export default {
       {
         title:'Choosing the best framework - Comparision 2021',
         author:'Saikiran Siriki',
-        blogUrl:'/choosing-the-best-framework-comparision-2021',
+        blogUrl:'/blogs/choosing-the-best-framework-comparision-2021',
         authorUrl:'/author/saikiran-siriki',
         description:`Deciding to start a project with your comes with a lot of decisions to make. One
         such decision is what framework should I use? While there are numerous opinions
