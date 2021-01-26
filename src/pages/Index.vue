@@ -19,7 +19,7 @@ export default {
     return{
       blogs:[
       {
-        title:'A desirable tech blog for newbies',
+        title:'Choosing the best framework - Comparision 2021',
         author:'Saikiran Siriki',
         blogUrl:'/blogs/choosing-the-best-framework-comparision-2021',
         authorUrl:'/author/saikiran-siriki',
