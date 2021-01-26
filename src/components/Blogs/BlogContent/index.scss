@@ -10,15 +10,12 @@
         font-size:0.8rem;
         .meta-item{
             margin-right:1rem;
+            color:$infoblue;
+            &:hover{
+                color:$hoverinfoblue
+            }
             .meta-item-text{
                 margin-left:0.3rem;
-                color:$infoblue;
-                &:hover{
-                    color:$hoverinfoblue
-                }
-                a{
-                    color:inherit
-                }
             }
         }
     }

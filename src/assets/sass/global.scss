@@ -19,6 +19,9 @@
     position: relative;
     width: auto;
 }
+.fa-limit-size{
+    max-width:0.875rem;
+}
 @media screen and (min-width: 1024px){
 .container {
     max-width: 960px;

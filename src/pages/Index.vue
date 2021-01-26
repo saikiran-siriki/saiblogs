@@ -13,7 +13,35 @@ import blogitem from "@/components/Home/BlogItem"
 export default {
   components:{headersection,blogitem},
   metaInfo: {
-    title: 'Learn to be a Developer Online'
+    title: 'Dev | Selftaught',
+    meta: [
+        {
+            key:'description',
+            content:'Life lessons and learnings of a Electrical Engineer turned Software Developer',
+            name:'description'
+        },
+        {
+            key:'og:description',
+            content:'Life lessons and learnings of a Electrical Engineer turned Software Developer',
+            name:'og:description'
+        },
+        {
+            key:'og:image',
+            content:'https://res.cloudinary.com/deks86ilr/image/upload/v1611679909/Blog/frameworkmeme-ogimage.jpg',
+            name:'og:image'
+        },
+        {
+            key:'og:image:width',
+            content:'200',
+            name:'og:image:width'
+        },
+        {
+            key:'og:image:height',
+            content:'200',
+            name:'og:image:height'
+        },
+
+    ]
   },
   data(){
     return{

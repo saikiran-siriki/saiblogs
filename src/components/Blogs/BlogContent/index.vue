@@ -3,21 +3,20 @@
     <div class="article-container">
       <div class="article-title">{{ blogdata.title }}</div>
       <div class="article-meta">
-        <span class="meta-item"
-          ><font-awesome-icon icon="user" /><span class="meta-item-text"
-            ><g-link to="/author/saikiran-siriki">{{
+        <g-link to="/author/saikiran-siriki" class="meta-item"
+          ><font-awesome-icon class="fa-limit-size" icon="user" /><span class="meta-item-text"
+            >{{
               blogdata.author
-            }}</g-link></span
-          ></span
-        ><span class="meta-item"
-          ><font-awesome-icon icon="calendar" /><g-link
-            :to="blogdata.blogUrl"
+            }}</span></g-link
+        ><g-link class="meta-item" :to="blogdata.blogUrl"
+          ><font-awesome-icon class="fa-limit-size" icon="calendar" /><span
+            
             class="meta-item-text"
             rel="bookmark"
             ><time class="blog-date" datetime="2021-01-05T11:58:00-06:00"
               >January 26, 2021</time
-            ></g-link
-          ></span
+            ></span
+          ></g-link
         >
       </div>
       <div class="article-content">
