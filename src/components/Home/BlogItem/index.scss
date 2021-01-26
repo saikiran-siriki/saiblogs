@@ -8,10 +8,13 @@
     }
     .blog-title{
         margin: 0 0 0.4rem;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: 700;
         line-height: 1.2;
+        text-decoration: none;
         a{
+            text-decoration: none;
+            color:$linkblue;
             &:hover{
                 color:$red;
                 text-decoration: none;
@@ -19,12 +22,12 @@
         }
     }
     .blog-meta{
-        color:$infoblue;
+       
         font-size:0.8rem;
         .meta-item{
             margin-right:1rem;
             padding:15px 0;
-            color:$infoblue;
+            color:$hoverinfoblue;
                 &:hover{
                     color:$hoverinfoblue
                 }
