@@ -57,7 +57,7 @@ export default {
       {
         title:'What is the best way to prepare for a Software Engineer - Frontend Interview?',
         author:'Saikiran Siriki',
-        blogUrl:'/blogs/best-way-to-prepare-for-frontend-interview',
+        blogUrl:'/blogs/concepts-to-prepare-for-frontend-interview',
         authorUrl:'/author/saikiran-siriki',
         description:`You might have read in my previous post on what to expect in an interview setting. Now the actual question, how do you actually do it? There's an overwhelming amount of content online and it's not very uncommon to get lost in what seems to be endless things to study. Here's a detailed plan`,
       },

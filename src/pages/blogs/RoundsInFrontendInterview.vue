@@ -54,8 +54,8 @@ export default {
         items: [
           {
             type: "p",
-            text: `Every company has very different set of interview processess for their front-end role. In general
-            it's pretty common to have 4 interviews or atmost 5. I will breakdown each process and what to expect in a detailed way that can help you be prepared of what is to come.`,
+            text: `Every company has very different set of interview processes for their front-end role. In general
+            it's pretty common to have 4 interviews or atmost 5. I will breakdown each process and what to expect in a detailed way that can help you to be prepared for what is to come.`,
           },
           { type: "h2", text: "Interview rounds you can expect:" },
           {
@@ -87,6 +87,7 @@ export default {
             type: "p",
             text: `This will be a very detailed technical round on the technology/language you are working on. They will ask you deeply into javascript/framework and can occasionally touch questions onto HTML/CSS as well. Most candidates will be weeded out here, so be well prepared. If you don't know a concept, accept it and ask him for a hint. Never play around bush only to say nothing and wasting everyone's time. Remember, nobody knows everything`,
           },
+          {type:'html',html:`<a style="color:#e46b00" href="/blogs/concepts-to-prepare-for-frontend-interview">Here's a curated list of topics to prepare for</a>`},
           { type: "h3", text: "Technical Round - Datastructures & Algorithms" },
           {
             type: "p",
