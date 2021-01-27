@@ -13,16 +13,16 @@ import blogcontent from "@/components/Blogs/BlogContent";
 export default {
   components: { headersection, blogcontent },
   metaInfo: {
-    title: "How many rounds can you expect in a Software Engineer - Frontend Interview?",
+    title: "Frontend Interviews | What to expect?",
     meta: [
         {
             key:'description',
-            content:'Confused what should be the choice of your frontend framework in 2021?',
+            content:'How many rounds can you expect in a Software Engineer - Frontend Interview?',
             name:'description'
         },
         {
             key:'og:description',
-            content:'Confused what should be the choice of your frontend framework in 2021?',
+            content:'How many rounds can you expect in a Software Engineer - Frontend Interview?',
             name:'og:description'
         },
         {
