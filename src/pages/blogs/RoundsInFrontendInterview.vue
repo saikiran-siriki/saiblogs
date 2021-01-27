@@ -78,14 +78,19 @@ export default {
             type: "ul",
             lists: [
               "If you are speaking with someone from Talent Aquisition team, you can expect questions around your current role, what technologies you know and how much are you familiar with the technology they are using internally in their company. Don't worry too much about the technology part though. If you stay confident and give the impression that you can pick up their technology confidently, you are gucci. They will also collect your other information like CTC, expected CTC, reason for leaving your current organization and if you are willing to relocate. It's not very uncommon to get rejected at this part, so be ready with the mentioned stuff just to be sure",
-              "If you are speaking with someone technical, expect very basic questions and approaches. Like how to reverse a linkedlist or something like explain hoisting in javascript. On rare occasions, they might even ask you compare frameworks etc. This round rarely happens only to weed out people if there's too much talent applying for the samerole",
+              "If you are speaking with someone technical, expect very basic questions and approaches. Like how to reverse a linkedlist or something like explain hoisting in javascript. On rare occasions, they might even ask you to compare frameworks etc. This round rarely happens only to weed out people if there's too much talent applying for the samerole",
               
             ],
           },
           { type: "h3", text: "Technical Round - Core Concepts" },
           {
             type: "p",
-            text: `This will be a very detailed technical round on the technology/language you are working on. They will ask you deeply into javascript/framework and can occasionally touch questions onto HTML/CSS as well. Most candidates will be weeded out here, so be well prepared. If you don't know accept it and ask him for a hint. Never play around bush only to say nothing and wasting everyone's time. Remember, nobody knows everything`,
+            text: `This will be a very detailed technical round on the technology/language you are working on. They will ask you deeply into javascript/framework and can occasionally touch questions onto HTML/CSS as well. Most candidates will be weeded out here, so be well prepared. If you don't know a concept, accept it and ask him for a hint. Never play around bush only to say nothing and wasting everyone's time. Remember, nobody knows everything`,
+          },
+          { type: "h1", text: "Technical Manager Round" },
+          {
+            type: "p",
+            text: `But I'm a front-end developer, why am I being asked questions on datastructures and algorithms? Well, you may be a front end developer but optimization is very important regardless of the role you are working on. For the most part, they want to understand your approach to problems and how you cut them down to reasonable pieces and tackle them. You will also be scrutinized for optimizations and possible edge cases. Don't hesitate to ask for a hint if you are stuck and always communicate what's on your mind with the interviewer. You can expect a maximum of 3 questions in this round`,
           },
           { type: "h3", text: "Technical Manager Round" },
           {
