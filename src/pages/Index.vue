@@ -55,7 +55,7 @@ export default {
         it's pretty common to have 4 interviews or atmost 5. I will breakdown each process and what to expect in a detailed way that can help you be prepared of what is to come.`,
       },
       {
-        title:'What is the best way to prepare for a Software Engineer - Frontend Interview?',
+        title:'What are the concepts to prepare for a Software Engineer - Frontend Interview?',
         author:'Saikiran Siriki',
         blogUrl:'/blogs/concepts-to-prepare-for-frontend-interview',
         authorUrl:'/author/saikiran-siriki',
