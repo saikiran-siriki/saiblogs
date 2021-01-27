@@ -87,7 +87,7 @@ export default {
             type: "p",
             text: `This will be a very detailed technical round on the technology/language you are working on. They will ask you deeply into javascript/framework and can occasionally touch questions onto HTML/CSS as well. Most candidates will be weeded out here, so be well prepared. If you don't know a concept, accept it and ask him for a hint. Never play around bush only to say nothing and wasting everyone's time. Remember, nobody knows everything`,
           },
-          { type: "h1", text: "Technical Manager Round" },
+          { type: "h3", text: "Technical Round - Datastructures & Algorithms" },
           {
             type: "p",
             text: `But I'm a front-end developer, why am I being asked questions on datastructures and algorithms? Well, you may be a front end developer but optimization is very important regardless of the role you are working on. For the most part, they want to understand your approach to problems and how you cut them down to reasonable pieces and tackle them. You will also be scrutinized for optimizations and possible edge cases. Don't hesitate to ask for a hint if you are stuck and always communicate what's on your mind with the interviewer. You can expect a maximum of 3 questions in this round`,
