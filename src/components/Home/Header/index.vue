@@ -3,9 +3,9 @@
     <div class="clearfix container">
       <div class="site-branding">
         <h1 class="site-title">
-          WebDev Basics 101
+          JS Interviews 2021
         </h1>
-        <div class="site-description">Learning path &amp; Jobs Tips</div>
+        <div class="site-description">Concepts &amp; Questions</div>
       </div>
     </div>
     <!-- .site-header -->

@@ -13,16 +13,16 @@ import blogitem from "@/components/Home/BlogItem"
 export default {
   components:{headersection,blogitem},
   metaInfo: {
-    title: 'Dev | Selftaught',
+    title: 'Javascript Interview questions',
     meta: [
         {
             key:'description',
-            content:'Life lessons and learnings of a Electrical Engineer turned Software Developer',
+            content:'Everything you need to know about javascript interviews. Questions on HTML, CSS and Javascript and other framework related questions',
             name:'description'
         },
         {
             key:'og:description',
-            content:'Life lessons and learnings of a Electrical Engineer turned Software Developer',
+            content:'Everything you need to know about javascript interviews. Questions on HTML, CSS and Javascript and other framework related questions',
             name:'og:description'
         },
         {
@@ -47,30 +47,19 @@ export default {
     return{
       blogs:[
       {
-        title:'Choosing the best framework - Comparision 2021',
+        title:'How many rounds can you expect in a Software Engineer - Frontend Interview?',
         author:'Saikiran Siriki',
-        blogUrl:'/blogs/choosing-the-best-framework-comparision-2021',
+        blogUrl:'/blogs/rounds-in-frontend-interview',
         authorUrl:'/author/saikiran-siriki',
-        description:`Deciding to start a project with your comes with a lot of decisions to make. One
-        such decision is what framework should I use? While there are numerous opinions
-        out there, below we take a look at some of the most common frameworks and what
-        you should choose based on your knowledge in javascript ecosystem. So what is the 
-        best framework? React: An open source library from the Facebook which has tremendous
-        support from contributors around the world which made it incredibly popular in the industry.
-        Still,`,
+        description:`Every company has very different set of interview processess for their job openings. In general
+        it's pretty common to have 4 interviews or atmost 5. I will breakdown each process and what to expect in a detailed way that can help you be prepared of what is to come.`,
       },
       {
-        title:'Choosing the best framework - Comparision 2021',
+        title:'What is the best way to prepare for a Software Engineer - Frontend Interview?',
         author:'Saikiran Siriki',
-        blogUrl:'/blogs/choosing-the-best-framework-comparision-2021',
+        blogUrl:'/blogs/best-way-to-prepare-for-frontend-interview',
         authorUrl:'/author/saikiran-siriki',
-        description:`Deciding to start a project with your comes with a lot of decisions to make. One
-        such decision is what framework should I use? While there are numerous opinions
-        out there, below we take a look at some of the most common frameworks and what
-        you should choose based on your knowledge in javascript ecosystem. So what is the 
-        best framework? React: An open source library from the Facebook which has tremendous
-        support from contributors around the world which made it incredibly popular in the industry.
-        Still,`,
+        description:`You might have read in my previous post on what to expect in an interview setting. Now the actual question, how do you actually do it? There's an overwhelming amount of content online and it's not very uncommon to get lost in what seems to be endless things to study. Here's a detailed plan`,
       },
       ]
     }
