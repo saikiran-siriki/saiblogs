@@ -25,21 +25,6 @@ export default {
             content:'Confused what should be the choice of your frontend framework in 2021?',
             name:'og:description'
         },
-        {
-            key:'og:image',
-            content:'https://res.cloudinary.com/deks86ilr/image/upload/v1611679909/Blog/frameworkmeme-ogimage.jpg',
-            name:'og:image'
-        },
-        {
-            key:'og:image:width',
-            content:'200',
-            name:'og:image:width'
-        },
-        {
-            key:'og:image:height',
-            content:'200',
-            name:'og:image:height'
-        },
 
     ]
 

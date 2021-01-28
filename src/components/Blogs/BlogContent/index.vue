@@ -14,7 +14,7 @@
             class="meta-item-text"
             rel="bookmark"
             ><time class="blog-date" datetime="2021-01-05T11:58:00-06:00"
-              >January 26, 2021</time
+              >{{blogdata.date}}</time
             ></span
           ></g-link
         >
@@ -27,7 +27,9 @@
               v-for="(listitem, listindex) in blogitem.lists"
               :key="listindex"
             >
-              {{ listitem }}
+              <span v-html="listitem.html" v-if="listitem.type==='html'"></span>
+              <template v-else>{{ listitem }}</template>
+              
             </li>
           </ul>
           <img

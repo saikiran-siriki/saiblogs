@@ -26,7 +26,28 @@ query {
 import Navbar from "@/components/shared/Navbar"
 import Footer from "@/components/shared/Footer"
 export default {
-  components:{Navbar,Footer}
+  components:{Navbar,Footer},
+  metaInfo: {
+    meta: [
+        {
+            key:'og:image',
+            content:'https://res.cloudinary.com/deks86ilr/image/upload/v1611824386/Blog/S.png',
+            name:'og:image'
+        },
+        {
+            key:'og:image:width',
+            content:'200',
+            name:'og:image:width'
+        },
+        {
+            key:'og:image:height',
+            content:'200',
+            name:'og:image:height'
+        },
+
+    ]
+
+  },
 }
 </script>
 
