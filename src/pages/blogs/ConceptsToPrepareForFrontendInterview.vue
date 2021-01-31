@@ -46,7 +46,7 @@ export default {
           {
             type: "ul",
             lists: [
-              "What is viewport, explain it's properties and configurations?",
+              {type:"html",html:"<a href='/blogs/how-html5-viewport-works'>What is viewport, explain it's properties and configurations?</a>"},
               "What are the latest tags in HTML5?",
               "CSS selectors",
               "CSS variables",

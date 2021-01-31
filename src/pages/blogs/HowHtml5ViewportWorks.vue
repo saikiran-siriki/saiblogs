@@ -39,16 +39,16 @@ export default {
         items: [
           {
             type: "p",
-            text: `A viewport is the visible area on a screen. It varies from device to device. It is smaller on a mobile than it is on a desktop. Before the advent of mobiles and tablets, websites used to have fixed and static design. This became very inconvenient as the mobile market boomed. Initially, mobile browsers scaled down the webpage to display the page, but that's not an optimal user experience`,
+            text: `A viewport is the visible area on a screen. It varies from device to device. It is smaller on a mobile than it is on a desktop. Before the advent of mobiles and tablets, websites used to have fixed and static design. This became very inconvenient as the mobile market boomed. Initially, mobile browsers scaled down the webpage to display the page, but that's not an optimal user experience. Is that an optimal experience? Considering most of the customers of a webpage are from mobile? Definitely Not. The web saw a major shift in how it's developed and it's often a common practice among developers to do mobile first development.`,
           },
           { type: "h2", text: "HTML5 viewport fix" },
           {
             type: "html",
-            html: `HTML5 introduced a new way to tame the viewport, using the <code>meta</code> tag like so:`,
+            html: `HTML5 introduced a new way to control the viewport, using the <code>meta</code> tag like so:`,
           },
           {
             type: "html",
-            html: `<code><meta name="viewport" content="width=device-width, initial-scale=1.0"></code>`,
+            html: `<textarea readonly style="width:100%;resize:vertical"><meta name="viewport" content="width=device-width, initial-scale=1.0" ></textarea>`,
           },
           {
             type: "p",
@@ -57,7 +57,7 @@ export default {
           {
             type:'ul',
             lists:[{type:'html',html:`The <code>width</code> enables the developer to control the width of the viewport. It can be set to a specific value like 400px or you can choose to set to <code>device-width</code>(recommended) which sets the width of the viewport to be the device width.`},
-            {type:'html',html:`The <code>initial-view</code> property controls the page's default zoom level when it's initially loaded. You can also control the maximum and minimum zoom level using the <code>maximum-view</code> and <code>minimum-view</code> properties.`}
+            {type:'html',html:`The <code>initial-view</code> property controls the webpage's default zoom level on initial load. You can also control the maximum and minimum zoom level using the <code>maximum-view</code> and <code>minimum-view</code> properties.`}
             ]
           }
           
