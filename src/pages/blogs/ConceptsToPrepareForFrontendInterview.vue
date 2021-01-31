@@ -25,21 +25,6 @@ export default {
             content:'Questions and concepts asked in a Frontend Interview',
             name:'og:description'
         },
-        {
-            key:'og:image',
-            content:'https://res.cloudinary.com/deks86ilr/image/upload/v1611679909/Blog/frameworkmeme-ogimage.jpg',
-            name:'og:image'
-        },
-        {
-            key:'og:image:width',
-            content:'200',
-            name:'og:image:width'
-        },
-        {
-            key:'og:image:height',
-            content:'200',
-            name:'og:image:height'
-        },
 
     ]
 
@@ -49,6 +34,7 @@ export default {
       blogdata: {
         title: "What are the concepts to prepare for a Software Engineer - Frontend Interview?",
         author: "Saikiran Siriki",
+        date:'January 27, 2021',
         blogUrl: "/concepts-to-prepare-for-frontend-interview",
         authorUrl: "/author/saikiran-siriki",
         items: [
@@ -60,7 +46,7 @@ export default {
           {
             type: "ul",
             lists: [
-              "What is viewport, explain it's properties and configurations?",
+              {type:"html",html:"<a href='/blogs/how-html5-viewport-works'>What is viewport, explain it's properties and configurations?</a>"},
               "What are the latest tags in HTML5?",
               "CSS selectors",
               "CSS variables",

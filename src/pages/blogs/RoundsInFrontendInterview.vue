@@ -25,21 +25,6 @@ export default {
             content:'How many rounds can you expect in a Software Engineer - Frontend Interview?',
             name:'og:description'
         },
-        {
-            key:'og:image',
-            content:'https://res.cloudinary.com/deks86ilr/image/upload/v1611679909/Blog/frameworkmeme-ogimage.jpg',
-            name:'og:image'
-        },
-        {
-            key:'og:image:width',
-            content:'200',
-            name:'og:image:width'
-        },
-        {
-            key:'og:image:height',
-            content:'200',
-            name:'og:image:height'
-        },
 
     ]
 
@@ -50,6 +35,7 @@ export default {
         title: "How many rounds can you expect in a Software Engineer - Frontend Interview?",
         author: "Saikiran Siriki",
         blogUrl: "/blogs/rounds-in-frontend-interview",
+        date:'January 26, 2021',
         authorUrl: "/author/saikiran-siriki",
         items: [
           {
