@@ -29,12 +29,23 @@ code{
     color:crimson;
     background-color: rgba(222,222,222,0.3);
 }
-pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-  }
+pre {
+    code{
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 20px;
+      
+        overflow-x:scroll
+    }
+}
+li{
+    span{
+        a{
+            color:#4C74B9
+        }
+    }
+}
 @media screen and (min-width: 1024px){
 .container {
     max-width: 960px;
