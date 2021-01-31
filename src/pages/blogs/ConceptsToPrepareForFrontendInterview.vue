@@ -107,7 +107,7 @@ export default {
           {
             type: "ul",
             lists: [
-              "Implement a snake game",
+              {type:"html",html:"<a href='/blogs/design-and-develop-a-snake-game'>Design and Develop a Snake Game</a>"},
               "Implement a 2D square that moves across a room at an angle with given speed",
               "Write down component breakdown for facebook newsfeedpage",
               "Let's say you have a page full of stats(like trading site where things change all the time), how would you implement it",
