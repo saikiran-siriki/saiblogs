@@ -1,8 +1,10 @@
 <template>
   <Layout>
-    <headersection />
-    <div class="blogs-section container">
-      <blogitem :blogdata="blogitem" v-for="(blogitem,index) in blogs" :key="index"/>
+    <div class="homepage-inner">
+      <headersection />
+      <div class="blogs-section container">
+        <blogitem :blogdata="blogitem" v-for="(blogitem,index) in blogs" :key="index"/>
+      </div>
     </div>
   </Layout>
 </template>

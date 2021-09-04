@@ -4,9 +4,9 @@
       <div class="site-branding">
         <g-link to="/">
         <h1 class="site-title">
-          JS Interviews 2021
+          Crypto 101
         </h1>
-        <div class="site-description">Concepts &amp; Questions</div>
+        <div class="site-description">Basic Concepts</div>
         </g-link>
       </div>
     </div>
